@@ -11,7 +11,8 @@ public class Post {
     private String images;
     private String caption;
     private LocalDateTime date;
-    private List<Comment> comment=new ArrayList<>();
+    private List<Comment> comment;
+
 
     public Post(String id, String images, String caption, LocalDateTime date, List<Comment> comment) {
         this.id = id;

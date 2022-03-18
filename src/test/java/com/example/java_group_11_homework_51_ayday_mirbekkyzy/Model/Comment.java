@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class Comment {
     private String id;
+    private UserModel user;
     private String text;
     private String date;
 
